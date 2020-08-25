@@ -18,4 +18,4 @@ for i=1:N                           % iterate through the inputted number of poi
 end
 
 pio4 = numberin / N;                % take our ratio which should approximate pi/4
-piapproc = 4 * pio4                 % multiply by 4 to give an approximation for pi; print to console.
+piapprox = 4 * pio4                 % multiply by 4 to give an approximation for pi; print to console.
