@@ -1,7 +1,7 @@
 %{
     Frances O'Leary, 8/24/2020
 
-    A script used approximate pi using
+    A script used to approximate pi using
     random points dropped in a square (a simple
     Monte Carlo method). From Numerical Methods, Greenbaum.
 %}
