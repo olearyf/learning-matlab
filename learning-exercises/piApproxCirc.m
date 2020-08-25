@@ -19,3 +19,11 @@ end
 
 pio4 = numberin / N;                % take our ratio which should approximate pi/4
 piapprox = 4 * pio4                 % multiply by 4 to give an approximation for pi; print to console.
+
+varpio4 = (pio4 - pio4^2) / N;
+
+% variance in approximation of pi/4
+
+varpi = 16*varpio4                 % variance in approximation to pi to a factor of 16
+
+stdpi = sqrt(varpi)                % estimated standard deviation in approximation of pi
